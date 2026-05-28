@@ -4,9 +4,8 @@ This repository contains the modeling data, weather data interface, utility func
 
 The released code is intended to support reproduction of the paper's controller comparison and to make the data-processing and method-implementation details transparent. The BEAR simulation environment used in the paper is **not** included in this repository.
 
-> Paper: `<insert paper title here>`  
-> Authors: `<insert author list here>`  
-> Citation: please cite the paper if you use this repository in academic work.
+> Paper: `<Statistical Feedback Adaptive Chance Constrained Temperature Control of Low-Carbon Refrigerated Warehouses>`  
+> Authors: `<Qiying Wang and Wei Wei and Songjie Feng>`  
 
 ---
 
@@ -268,20 +267,3 @@ save_case_output(
 - When comparing controllers, use the same weather trajectory, forecast horizon, electricity price sequence, PV availability sequence, thermal parameters, and violation-rate settings across all methods.
 
 ---
-
-## Suggested citation
-
-```bibtex
-@article{yourkey2026warehouse,
-  title   = {<insert paper title here>},
-  author  = {<insert author list here>},
-  journal = {<insert venue here>},
-  year    = {2026}
-}
-```
-
----
-
-## License
-
-Please specify the license before public release. For academic code releases, common choices include MIT, BSD-3-Clause, or Apache-2.0, depending on project and institutional requirements.
